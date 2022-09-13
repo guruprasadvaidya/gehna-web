@@ -61,8 +61,14 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff; 
-  overflow:auto;
+  /* overflow:auto; */
 
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+  display: none;
 }
 
 [tabindex="-1"]:focus {
