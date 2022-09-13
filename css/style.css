@@ -43,6 +43,7 @@
   box-sizing: border-box; }
 
 html {
+  
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -60,7 +61,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff; 
-scroll-behavior: smooth;
+
 
 }
 
@@ -8145,7 +8146,7 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
     height: 100%;
     width: 100%; }
