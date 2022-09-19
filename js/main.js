@@ -321,7 +321,6 @@ $(document).ready(function() {
 
 
 // for scroll problem
-
-window.onbeforeunload = function () {
-	window.scrollTo(0, 0);
-  }
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
