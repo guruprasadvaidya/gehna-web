@@ -8580,7 +8580,7 @@ h1, h2, h3, h4, h5,
 
           /* ***** */
 
-          @media (min-width: 270px) {
+          @media (min-width: 290px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
               color: #fff; 
             font-size: 17px;
