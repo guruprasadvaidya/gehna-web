@@ -43,7 +43,6 @@
   box-sizing: border-box; }
 
 html {
-  
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -61,14 +60,12 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff; 
-  /* overflow:auto; */
+
 
 }
 
-
-/* 
 [tabindex="-1"]:focus {
-  outline: 0 !important; } */
+  outline: 0 !important; }
 
 hr {
   -webkit-box-sizing: content-box;
@@ -8148,7 +8145,7 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
-    /* overflow: hidden; */
+    overflow: hidden;
     position: fixed;
     height: 100%;
     width: 100%; }
@@ -8521,20 +8518,7 @@ h1, h2, h3, h4, h5,
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
             width: 100%; 
-          margin-bottom: 17rem;}
-
-         
-         /* changes  */
-          @media (min-width: 270px)  {
-            .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
-              
-              margin-bottom: 17rem;
-
-               } }
-
-
-
-
+          margin-bottom: 8rem;}
             @media (min-width: 992px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
                 position: absolute;
@@ -8571,28 +8555,13 @@ h1, h2, h3, h4, h5,
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 12px; 
-            margin-top: 12px;
-            } }
+              font-size: 40px; } }
         .owl-carousel.home-slider .slider-item .slider-text h2 {
           font-size: 30px;
           font-weight: 400; }
-
-          /* ***** */
-
-          @media (min-width: 290px) {
-            .owl-carousel.home-slider .slider-item .slider-text h2 {
-              color: #fff; 
-            font-size: 17px;
-            }
-            }
-
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
-              color: #fff; 
-            font-size: 17px;
-            }
-            }
+              color: #fff; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           color: rgba(0, 0, 0, 0.8);
           font-weight: 400; }
@@ -10238,11 +10207,3 @@ margin-left: -5rem;
     background-position: top ;
     background-size: cover;
   }
-
-
-  /* home section */
-  ::-webkit-scrollbar {
-   
-    height: 100px;
-    display: none;
-}
