@@ -321,6 +321,3 @@ $(document).ready(function() {
 
 
 // for scroll problem
-$(document).ready(function(){
-    $(this).scrollTop(0);
-});

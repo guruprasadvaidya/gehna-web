@@ -10241,7 +10241,8 @@ margin-left: -5rem;
 
 
   /* home section */
-  #home-section{
-    height: 200%;
-
-  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+    display: none;
+}
