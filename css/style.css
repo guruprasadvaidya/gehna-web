@@ -452,7 +452,8 @@ pre {
 
 .pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll; }
+  /* overflow-y: scroll; */
+ }
 
 .container {
   width: 100%;
@@ -10242,7 +10243,7 @@ margin-left: -5rem;
 
   /* home section */
   ::-webkit-scrollbar {
-    width: 6px;
+   
     height: 100px;
     display: none;
 }
