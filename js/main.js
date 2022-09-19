@@ -318,3 +318,10 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
+// for scroll problem
+
+window.onbeforeunload = function () {
+	window.scrollTo(0, 0);
+  }

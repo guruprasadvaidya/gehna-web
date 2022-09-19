@@ -10238,3 +10238,10 @@ margin-left: -5rem;
     background-position: top ;
     background-size: cover;
   }
+
+
+  /* home section */
+  #home-section{
+    height: 200%;
+
+  }
