@@ -321,3 +321,19 @@ $(document).ready(function() {
 
 
 // for scroll problem
+const container = document.getElementById("container");
+const snap = document.getElementById("snap");
+
+// Scroll the view to the bottom once initially
+container.scrollTop = container.scrollHeight;
+
+container.addEventListener("scroll", (event) => {
+  const target = event.currentTarget;
+  const scroll = target.scrollTop;
+  const maxScroll = target.scrollHeight - target.clientHeight;
+  const threshold = 50; // px
+  isScrollBottomedOut = maxScroll - scroll < threshold;
+  // If the user scrolls up more than the threshold, disable snapping
+  // If the user scrolls down again, reenable snapping
+  snap.style.display = isScrollBottomedOut ? "block" : "none";
+});

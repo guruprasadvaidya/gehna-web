@@ -44,6 +44,14 @@
 
 html {
   
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-scroll-chaining: none;
+  overscroll-behavior: contain;
+  -ms-scroll-snap-type: y proximity;
+  scroll-snap-type: y proximity;
+
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -51,6 +59,11 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
+
+
+  #snap {
+    scroll-snap-align: end;
+  }
 
 body {
   margin: 0;
@@ -452,7 +465,7 @@ pre {
 
 .pre-scrollable {
   max-height: 340px;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
  }
 
 .container {
