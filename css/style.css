@@ -8522,6 +8522,19 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
             width: 100%; 
           margin-bottom: 17rem;}
+
+         
+         /* changes  */
+          @media (min-width: 270px)  {
+            .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
+              
+              margin-bottom: 17rem;
+
+               } }
+
+
+
+
             @media (min-width: 992px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
                 position: absolute;
@@ -8564,6 +8577,16 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text h2 {
           font-size: 30px;
           font-weight: 400; }
+
+          /* ***** */
+
+          @media (min-width: 270px) {
+            .owl-carousel.home-slider .slider-item .slider-text h2 {
+              color: #fff; 
+            font-size: 17px;
+            }
+            }
+
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
               color: #fff; 
