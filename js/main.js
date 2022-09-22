@@ -337,3 +337,7 @@ container.addEventListener("scroll", (event) => {
   // If the user scrolls down again, reenable snapping
   snap.style.display = isScrollBottomedOut ? "block" : "none";
 });
+
+
+
+// home page rennovation problem
