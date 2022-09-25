@@ -10521,8 +10521,12 @@ margin-left: -5rem;
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+ color: #444444;
 }
+.hero h1 span{
+  color: #c69500;
+}
+
 .hero h2 {
   color: #444444;
   margin: 15px 0 0 0;
@@ -10576,6 +10580,7 @@ margin-left: -5rem;
 @media (max-width: 768px) {
   .hero {
     text-align: center;
+    margin-top: -125px;
   }
   .hero h1 {
     font-size: 32px;
@@ -10588,48 +10593,151 @@ margin-left: -5rem;
   }
 }
 
+#gehna{
+  color: #ffbd39;
+}
+
+#HEY{
+  color: #c69500;
+}
+
+
+#photuu{
+  margin-top: -160px;
+}
+
 
 /* ******nav new****** */
 
-/* Style the navigation menu */
-.topnav {
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
-  background-color: #000;
-  position: relative;
+  background: black;
+  z-index: -1;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+#main-menu {
+display: block;
+height: 100px;
+width: 100%;
+background: #000;
+margin: 0px;  
+z-index: 9;
+}
+
+#main-menu ul {
+max-width: 800px;
+width: 100%;
+height: 100%;
+margin: 0px auto;
+padding: 0px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+z-index: 9;
+}
+
+#main-menu li {
+list-style-type: none;
+font-size: 1rem;
+}
+
+#main-menu a {
+color: gray;
+font-size: 1.5rem;
+text-decoration: none;
+}
+
+#main-menu a:hover {
+color: white;
+}
+
+#hamburger-input{
+display: none;
+}
+
+#hamburger-menu {
+ 
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  display: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Cabin', Sans-serif;
+  background: linear-gradient(
+    to bottom, 
+    #c69500 ,  #c69500 20%, 
+    white 20%, white 40%, 
+    #c69500 40%,  #c69500 60%, 
+    white 60%, white 80%, 
+    #c69500 80%,  #c69500 100%
+  );
+}
+
+#hamburger-menu #sidebar-menu {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #23272b;
+  transition: 0.3s;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+#hamburger-menu h3 {
+color: #444444;
+font-size: 2.2rem;
+}
+
+#hamburger-menu ul {
+padding-left: 0px;
+}
+
+#hamburger-menu li {
+list-style-type: none;
+line-height: 3rem;
+}
+
+#hamburger-menu a {
+color: #95999c;
+font-size: 1.3rem;
+text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+color: white;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+  visibility: visible;
+  left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+ visibility: visible;
+opacity: 0.4;
+}
+
+
+@media screen and (max-width: 750px) {
+#main-menu {
   display: none;
 }
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
+#hamburger-menu {
+  display: inline;
 }
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-
-/* Style the active link (or home/logo) */
-/* .active {
-  background-color: #000;
-  color: white;
-} */
