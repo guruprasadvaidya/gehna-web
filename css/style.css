@@ -3358,7 +3358,9 @@ input[type="button"].btn-block {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
-/* 
+      
+
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3429,7 +3431,8 @@ input[type="button"].btn-block {
   display: none; }
 
 .tab-content > .active {
-  display: block; } */
+  display: block; }
+
 
 /* .navbar {
   position: relative;
@@ -3458,7 +3461,9 @@ input[type="button"].btn-block {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; } */
-/* 
+    
+/* /* 
+
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
@@ -3469,7 +3474,7 @@ input[type="button"].btn-block {
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; } */
-/* 
+
     
 .navbar-nav {
   display: -webkit-box;
@@ -3487,8 +3492,9 @@ input[type="button"].btn-block {
     padding-left: 0; }
   .navbar-nav .dropdown-menu {
     position: static;
-    float: none; } */
-/* 
+    float: none; } *
+    
+
 .navbar-text {
   display: inline-block;
   padding-top: 0.5rem;
@@ -3776,7 +3782,7 @@ input[type="button"].btn-block {
   .navbar-dark .navbar-text a {
     color: #fff; }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-      color: #fff; } */
+      color: #fff; }
 
 .card {
   position: relative;
@@ -8160,7 +8166,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ffbd39; }
+  color: #fff7e8; }
   a:hover, a:focus {
     text-decoration: none;
     color: #ffbd39;
@@ -10523,7 +10529,7 @@ margin-left: -5rem;
   background-size: cover;
 }
 .hero h1 {
-  margin: 0;
+  margin: -8px 0;
   font-size: 48px;
   font-weight: 700;
  color: #444444;
@@ -10618,6 +10624,7 @@ margin-left: -5rem;
 /* ******nav new****** */
 
 
+
 .header {
   /* background-color: #000; */
   /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
@@ -10636,7 +10643,7 @@ margin-left: -5rem;
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 3px 20px;
   border-right: 1px solid #000;
   text-decoration: none;
 }

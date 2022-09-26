@@ -133,45 +133,45 @@
 // 	  console.log('show');
 // 	});
 
-// 	// scroll
-// 	var scrollWindow = function() {
-// 		$(window).scroll(function(){
-// 			var $w = $(this),
-// 					st = $w.scrollTop(),
-// 					navbar = $('.ftco_navbar'),
-// 					sd = $('.js-scroll-wrap');
+	// // scroll
+	// var scrollWindow = function() {
+	// 	$(window).scroll(function(){
+	// 		var $w = $(this),
+	// 				st = $w.scrollTop(),
+	// 				navbar = $('.ftco_navbar'),
+	// 				sd = $('.js-scroll-wrap');
 
-// 			if (st > 150) {
-// 				if ( !navbar.hasClass('scrolled') ) {
-// 					navbar.addClass('scrolled');	
-// 				}
-// 			} 
-// 			if (st < 150) {
-// 				if ( navbar.hasClass('scrolled') ) {
-// 					navbar.removeClass('scrolled sleep');
-// 				}
-// 			} 
-// 			if ( st > 350 ) {
-// 				if ( !navbar.hasClass('awake') ) {
-// 					navbar.addClass('awake');	
-// 				}
+	// 		if (st > 150) {
+	// 			if ( !navbar.hasClass('scrolled') ) {
+	// 				navbar.addClass('scrolled');	
+	// 			}
+	// 		} 
+	// 		if (st < 150) {
+	// 			if ( navbar.hasClass('scrolled') ) {
+	// 				navbar.removeClass('scrolled sleep');
+	// 			}
+	// 		} 
+	// 		if ( st > 350 ) {
+	// 			if ( !navbar.hasClass('awake') ) {
+	// 				navbar.addClass('awake');	
+	// 			}
 				
-// 				if(sd.length > 0) {
-// 					sd.addClass('sleep');
-// 				}
-// 			}
-// 			if ( st < 350 ) {
-// 				if ( navbar.hasClass('awake') ) {
-// 					navbar.removeClass('awake');
-// 					navbar.addClass('sleep');
-// 				}
-// 				if(sd.length > 0) {
-// 					sd.removeClass('sleep');
-// 				}
-// 			}
-// 		});
-// 	};
-// 	scrollWindow();
+	// 			if(sd.length > 0) {
+	// 				sd.addClass('sleep');
+	// 			}
+	// 		}
+	// 		if ( st < 350 ) {
+	// 			if ( navbar.hasClass('awake') ) {
+	// 				navbar.removeClass('awake');
+	// 				navbar.addClass('sleep');
+	// 			}
+	// 			if(sd.length > 0) {
+	// 				sd.removeClass('sleep');
+	// 			}
+	// 		}
+	// 	});
+	// };
+	// scrollWindow();
 
 	
 
@@ -342,3 +342,19 @@ container.addEventListener("scroll", (event) => {
 
 // home page rennovation problem
 // nav
+
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+/*** Programming Notes **************************************
+  Arrow Functions - es6 syntactically compact alternative to a regular function expression
+  see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+  or https://www.w3schools.com/js/js_arrow_function.asp
+
+  classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+  */
