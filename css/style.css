@@ -10618,10 +10618,14 @@ margin-left: -5rem;
   margin-top: -160px;
 }
 
+
+
+@media (min-width: 48em) {
+  
 #bday{
- width: 70%;
- height: 120%;
-}
+  width: 70%;
+  height: 120%;
+ }
 
 /* ******nav new****** */
 
