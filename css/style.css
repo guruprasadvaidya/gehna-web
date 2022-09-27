@@ -9932,6 +9932,7 @@ ul {
 }
 a, a:hover {
   text-decoration: none;
+  margin-left: -14px;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -10218,7 +10219,7 @@ margin-left: -5rem;
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: gray;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -10618,7 +10619,8 @@ margin-left: -5rem;
 }
 
 #bday{
-  background-position: center;
+ width: 70%;
+ height: 120%;
 }
 
 /* ******nav new****** */
