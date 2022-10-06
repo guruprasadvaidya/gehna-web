@@ -8847,6 +8847,8 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase; }
 
 .services-1 {
+
+  margin-left: 3px;
   margin-bottom: 40px;
   padding: 2em;
   background: rgba(255, 255, 255, 0.1);
@@ -9239,7 +9241,7 @@ textarea.form-control {
     z-index: -1;
     font-weight: 900; }
     .heading-section h1.big.big-2 {
-      margin-left: -7rem; }
+      margin-left: -8rem; }
   .heading-section h2 {
     font-size: 50px;
     font-weight: 700; }
@@ -9334,6 +9336,7 @@ textarea.form-control {
   letter-spacing: .1em; }
 
 .block-20 {
+  margin-left: 2px;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9933,7 +9936,7 @@ ul {
 }
 a, a:hover {
   text-decoration: none;
-  margin-left: -14px;
+  margin-left: -2px;
 }
 body {
   font-family: 'Montserrat', sans-serif;
