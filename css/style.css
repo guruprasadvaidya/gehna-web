@@ -9786,7 +9786,7 @@ margin-top: -100px;
 }
 
 #blogs:hover {
-  background-image: url(/images/blogg.jpg);
+  background-color: #ffbd39;
   background-size: cover;
   background-position: center center;
   background-attachment: local;
@@ -9836,7 +9836,7 @@ margin-top: -100px;
 }
 
 #resume:hover {
-  background-image: url(/images/resume.jpg);
+  background-color: #ffbd39;
   background-size: cover;
   background-position: center center;
   background-attachment: local;
@@ -9886,7 +9886,8 @@ margin-top: -100px;
 }
 
 #linkdin:hover {
-  background-image: url(/images/linnkdin\ profile.webp);
+  background-color: #ffbd39;
+  /* background-image: url(/images/linnkdin\ profile.webp); */
   background-size: cover;
   background-position: center center;
   background-attachment: local;
