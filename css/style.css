@@ -52,7 +52,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
-  
+ width: 100%;
+ max-width: 980px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -9243,7 +9244,7 @@ textarea.form-control {
     z-index: -1;
     font-weight: 900; }
     .heading-section h1.big.big-2 {
-      margin-left: -8rem; }
+      margin-left: -7rem; }
   .heading-section h2 {
     font-size: 50px;
     font-weight: 700; }
@@ -10147,20 +10148,20 @@ background-color: #fff3cd!important;
 
 @media (min-width: 1344px) {
   #srvc  {
-margin-left: 7rem;
+margin-left: 9rem!important;
 
     max-width: 287px; } }
 
 @media (min-width: 271px) {
   #abt  {
-margin-left: -7rem;
+margin-left: -6rem;
 
     max-width: 287px; } }
 
 
   @media (min-width: 1344px) {
       #rveus  {
-    margin-left: 5rem;
+    margin-left: 2rem!important;
     
         max-width: 287px; } }
 
