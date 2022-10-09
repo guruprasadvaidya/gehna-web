@@ -42,7 +42,6 @@
   box-sizing: border-box; }
 
 html {
-  webkit-overflow-scrolling: touch;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -52,8 +51,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
- width: 100%;
- max-width: 980px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -9244,7 +9241,7 @@ textarea.form-control {
     z-index: -1;
     font-weight: 900; }
     .heading-section h1.big.big-2 {
-      margin-left: -7rem; }
+      margin-left: -8rem; }
   .heading-section h2 {
     font-size: 50px;
     font-weight: 700; }
@@ -10142,26 +10139,27 @@ figure:hover img {
   color: red!important;
 }
 
+
 #btnn:hover{
-background-color: #fff3cd!important;
+background-color: gray;
 }
 
 @media (min-width: 1344px) {
   #srvc  {
-margin-left: 9rem!important;
+margin-left: 7rem;
 
     max-width: 287px; } }
 
 @media (min-width: 271px) {
   #abt  {
-margin-left: -6rem;
+margin-left: -7rem;
 
     max-width: 287px; } }
 
 
   @media (min-width: 1344px) {
       #rveus  {
-    margin-left: 2rem!important;
+    margin-left: 5rem;
     
         max-width: 287px; } }
 
@@ -10621,7 +10619,6 @@ margin-left: -5rem;
 
 #HEY{
   color: #c69500;
-  margin-top: -100px;
 }
 
 
