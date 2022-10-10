@@ -10664,6 +10664,13 @@ margin-left: -5rem;
     -webkit-overflow-scrolling: touch; }
     }
 
+    
+@media (max-width: 575.98px) {
+  .header{
+    -webkit-overflow-scrolling: touch; }
+    }
+
+
 .header ul {
   margin: -70px 0;
   padding: 0;
