@@ -42,7 +42,6 @@
   box-sizing: border-box; }
 
 html {
-  
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -52,7 +51,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
-
   align-items: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -9119,9 +9117,7 @@ textarea.form-control {
   font-size: 16px;
   background: #000000;
   padding: 0em 0;
-  z-index: 0; 
-
-}
+  z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -10316,7 +10312,6 @@ margin-left: -5rem;
 # Header
 --------------------------------------------------------------*/
 .header {
-  -webkit-overflow-scrolling: touch;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -10773,11 +10768,5 @@ margin-left: -5rem;
   }
   .header .menu-icon {
     display: none;
-  }
-}
-
-@media (min-width: 350px) {
-  #hero{
-    webkit-overflow-scrolling: touch;
   }
 }
