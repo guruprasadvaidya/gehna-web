@@ -354,6 +354,3 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 // for smooth scrolling
 
-el.style.overflow = 'auto';
-window.requestAnimationFrame(() => el.scrollTo({ left: 100, behavior: 'smooth' }));
-setTimeout(() => (el.style.overflow = 'hidden'), 1000);
