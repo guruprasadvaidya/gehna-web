@@ -10477,7 +10477,7 @@ margin-left: -5rem;
 }
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
+  /* overflow: hidden; */
   top: 0;
   right: 0;
   left: 0;
@@ -10658,11 +10658,17 @@ margin-left: -5rem;
   z-index: 3;
 }
 
+
+@media (max-width: 575.98px) {
+  *{
+    -webkit-overflow-scrolling: touch; }
+    }
+
 .header ul {
   margin: -70px 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #000;
 }
 
@@ -10779,3 +10785,4 @@ margin-left: -5rem;
     display: none;
   }
 }
+
