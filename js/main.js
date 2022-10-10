@@ -354,3 +354,4 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 // for smooth scrolling
 
+document.getElementById('hero').style.webkitOverflowScrolling = 'auto';
