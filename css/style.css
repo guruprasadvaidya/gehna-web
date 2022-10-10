@@ -42,7 +42,7 @@
   box-sizing: border-box; }
 
 html {
-  -webkit-overflow-scrolling:touch;
+  -webkit-overflow-scrolling:auto !important;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
