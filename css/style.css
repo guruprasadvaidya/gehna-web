@@ -8027,7 +8027,7 @@ a.text-success:hover, a.text-success:focus {
   color: #19692c !important; }
 
 .text-info {
-  color: #17a2b8 !important; }
+  color:#e7e7e7 !important; }
 
 a.text-info:hover, a.text-info:focus {
   color: #0f6674 !important; }
@@ -9117,7 +9117,9 @@ textarea.form-control {
   font-size: 16px;
   background: #000000;
   padding: 0em 0;
-  z-index: 0; }
+  z-index: 0;
+/* margin-left: 351px!important; */
+}
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -10134,12 +10136,7 @@ figure:hover img {
 /* #abt{
   margin-left:1.4rem;
 } */
-/* 
-@media (min-width: 320px){
-#hero{
-  webkit-overflow-scrolling: touch!important;
-}
-} */
+/* c */
 
 /* home color in blog */
 #homeo{
@@ -10680,6 +10677,10 @@ margin-left: -5rem;
   color: gray;
 }
 
+span .gmaill{
+  color: red;
+}
+
 /* menu */
 
 .header .menu {
@@ -10775,4 +10776,58 @@ margin-left: -5rem;
   .header .menu-icon {
     display: none;
   }
+}
+
+/* owl careousl */
+
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel .card{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.carousel .card-1{
+  background: #ed1c24;
+}
+.carousel .card-2{
+  background: #0072bc;
+}
+.carousel .card-3{
+  background: #39b54a;
+}
+.carousel .card-4{
+  background: #f26522;
+}
+.carousel .card-5{
+  background: #630460;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #0072bc!important;
 }
