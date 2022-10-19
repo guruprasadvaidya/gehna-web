@@ -277,49 +277,6 @@
 
 
 
-// testimonials
-$(document).ready(function(){
-	$(".testimonial .indicators li").click(function(){
-	  var i = $(this).index();
-	  var targetElement = $(".testimonial .tabs li");
-	  targetElement.eq(i).addClass('active');
-	  targetElement.not(targetElement[i]).removeClass('active');
-			  });
-			  $(".testimonial .tabs li").click(function(){
-				  var targetElement = $(".testimonial .tabs li");
-				  targetElement.addClass('active');
-				  targetElement.not($(this)).removeClass('active');
-			  });
-		  });
-  $(document).ready(function(){
-	  $(".slider .swiper-pagination span").each(function(i){
-		  $(this).text(i+1).prepend("0");
-	  });
-  });
-
-
-
-
-// more results
-
-$(document).ready(function() {
-	$(".gallery").magnificPopup({
-		delegate: "a",
-		type: "image",
-		tLoading: "Loading image #%curr%...",
-		mainClass: "mfp-img-mobile",
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-		}
-	});
-});
-
-
 // for scroll problem
 const container = document.getElementById("container");
 const snap = document.getElementById("snap");
@@ -356,5 +313,5 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 document.getElementById('hero').style.webkitOverflowScrolling = 'touch';
 
+// testimonials
 
-// careousel new

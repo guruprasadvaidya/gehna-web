@@ -10778,56 +10778,97 @@ span .gmaill{
   }
 }
 
-/* owl careousl */
+/* testimonials */
 
-.wrapper{
-  width: 100%;
+/* body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 150, 150);
+  font-family: 'Open Sans'
+} */
+
+#demo {
+  background: linear-gradient(112deg, #000 50%,  50%);
+  max-width: 900px;
+  margin: auto
 }
-.carousel{
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 30px;
-}
-.carousel .card{
-  color: #fff;
+
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: white;
   text-align: center;
-  margin: 20px 0;
-  line-height: 250px;
-  font-size: 90px;
-  font-weight: 600;
-  border-radius: 10px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem
 }
-.carousel .card-1{
-  background: #ed1c24;
+
+@media(max-width:767px) {
+  .carousel-caption {
+      position: initial;
+      z-index: 10;
+      padding: 3rem 2rem;
+      color: rgba(78, 77, 77, 0.856);
+      text-align: center;
+      font-size: 0.7rem;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 1.5rem
+  }
 }
-.carousel .card-2{
-  background: #0072bc;
+
+.carousel-caption img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem
 }
-.carousel .card-3{
-  background: #39b54a;
+
+@media(max-width:767px) {
+  .carousel-caption img {
+      width: 4rem;
+      border-radius: 4rem;
+      margin-top: 1rem
+  }
 }
-.carousel .card-4{
-  background: #f26522;
+
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem
 }
-.carousel .card-5{
-  background: #630460;
+
+@media(max-width:767px) {
+  #image-caption {
+      font-style: normal;
+      font-size: 0.6rem;
+      margin-top: 0.5rem
+  }
 }
-.owl-dots{
-  text-align: center;
-  margin-top: 40px;
+
+i {
+  /* background-color: rgb(223, 56, 89); */
+  padding: 1.4rem
 }
-.owl-dot{
-  height: 15px;
-  width: 45px;
-  margin: 0 5px;
-  outline: none;
-  border-radius: 14px;
-  border: 2px solid #0072bc!important;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
+
+@media(max-width:767px) {
+  i {
+      padding: 0.8rem
+  }
 }
-.owl-dot.active,
-.owl-dot:hover{
-  background: #0072bc!important;
+
+.carousel-control-prev {
+  justify-content: flex-start
+}
+
+.carousel-control-next {
+  justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset;
 }
